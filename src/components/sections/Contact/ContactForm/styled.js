@@ -18,6 +18,17 @@ const Form = styled.form`
   grid-template-columns: 1fr 1fr;
   width: 100%;
   gap: 33px;
+  
+  @media screen and (max-width: 1200px) {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
 `
-
-export {Wrapper, Title, Form}
+const WrapBtn = styled.div`
+ margin-left: auto;
+  @media screen and (max-width: 1200px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+`
+export {Wrapper, Title, Form, WrapBtn}

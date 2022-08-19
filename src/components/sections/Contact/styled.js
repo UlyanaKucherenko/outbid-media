@@ -24,6 +24,7 @@ const InfoBlock = styled.div`
   min-height: 682px;
   background-color: #291d3c;
   opacity: 0.88;
+  padding-block: 20px;
 `
 const Content = styled.div`
   display: flex;
@@ -34,6 +35,8 @@ const Content = styled.div`
   width: 100%;
   min-height: 682px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
   color: var(--white);
 `
 const Title = styled.div`
@@ -48,5 +51,8 @@ const Subtitle = styled.div`
   font-size: 20px;
   line-height: 28px;
 `
+
+
+
 
 export {Wrapper, WrapImg, Img, InfoBlock, Content, Title, Subtitle}

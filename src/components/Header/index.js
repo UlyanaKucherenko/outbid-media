@@ -1,23 +1,28 @@
 import logo from '../../assets/img/logo.svg';
-
-import {Wrapper, Container, MenuLink, Img, WrapImg} from './styled';
+import iconMenu from '../../assets/img/icon-menu.svg';
+import {Wrapper, Container, Img, NavLink, WrapImg, Nav, IconMenu} from './styled';
 
 function Header() {
-  return(
+
+  return (
     <Wrapper>
       <Container>
-        <WrapImg>
-          <Img src={logo} alt="logo" />
+        <WrapImg href="/">
+          <Img src={logo} alt="logo"/>
         </WrapImg>
-        <nav className="nav">
-          <MenuLink href="#">How It Works</MenuLink>
-          <MenuLink href="#">Who We Serve</MenuLink>
-          <MenuLink href="#">Who We Serve</MenuLink>
-          <MenuLink href="#">About Us</MenuLink>
-          <MenuLink href="#">Contact</MenuLink>
-        </nav>
+        <Nav>
+          <NavLink><a href="#howItWork">How It Works</a></NavLink>
+          <NavLink><a href="#whoWeServe">Who We Serve</a></NavLink>
+          <NavLink><a href="#about">About Us</a></NavLink>
+          <NavLink><a href="#contact">Contact</a></NavLink>
+        </Nav>
+        <IconMenu>
+          <Img src={iconMenu} alt="logo"/>
+        </IconMenu>
+
       </Container>
     </Wrapper>
   )
 }
+
 export default Header

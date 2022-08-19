@@ -5,37 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6649238c-b7d8-4ac5-a2fc-3394fd2f256e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/contact-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/hero-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/sec1-img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/ContactForm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/ContactForm/styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/RInput/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/RInput/styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero/styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HowItWorks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HowItWorks/styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainLayout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/general/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/general/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/general/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/general/_scroll.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/general/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/about-img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/icon-menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/sec1-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/sec1-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/sec2-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/sec2-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/sec2-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/snapchut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/tiktok.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/About/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Contact/ContactForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Contact/RCheckbox/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Contact/RCheckbox/styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Contact/RInput/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Hero/styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/HowItWorks/SectionBlock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/HowItWorks/SectionBlock/styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/HowItWorks/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/OurServices/ServicesItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/OurServices/ServicesItem/styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/OurServices/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/OurServices/styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Sales/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Sales/styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/WhoWeServe/ServeItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/WhoWeServe/ServeItem/styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/WhoWeServe/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/WhoWeServe/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/ContactForm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/ContactForm/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/ContactForm/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/RInput/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/RInput/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/RInput/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Hero/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/About/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HowItWorks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/HowItWorks/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HowItWorks/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/HowItWorks/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainLayout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainLayout/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/general/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/general/_reboot.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +80,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ulya/projects/outbid-media/src/assets/img",
+    "last_opened_file_path": "/home/ulya/projects/outbid-media/src/components/sections/Contact",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,11 +92,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/sections/Contact" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/components/sections" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/sections" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
     </key>
   </component>
@@ -89,7 +111,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660725401564</updated>
-      <workItem from="1660725402923" duration="29797000" />
+      <workItem from="1660725402923" duration="31240000" />
+      <workItem from="1660806906468" duration="23012000" />
+      <workItem from="1660892537718" duration="19390000" />
     </task>
     <servers />
   </component>

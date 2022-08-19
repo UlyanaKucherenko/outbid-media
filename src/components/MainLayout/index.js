@@ -1,7 +1,11 @@
 import Header from "../Header";
-import Hero from "../Hero";
-import HowItWorks from "../HowItWorks";
-import Index from "../Contact";
+import Hero from "../sections/Hero";
+import HowItWorks from "../sections/HowItWorks";
+import ContactForm from "../sections/Contact";
+import WhoWeServe from "../sections/WhoWeServe";
+import OurServices from "../sections/OurServices";
+import About from "../sections/About";
+import Sales from "../sections/Sales";
 
 function MainLayout() {
   return(
@@ -9,7 +13,11 @@ function MainLayout() {
       <Header/>
       <Hero />
       <HowItWorks/>
-      <Index/>
+      <WhoWeServe />
+      <OurServices/>
+      <About/>
+      <Sales/>
+      <ContactForm/>
       <div>Footer</div>
     </div>
   )

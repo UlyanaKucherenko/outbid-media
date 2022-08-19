@@ -1,10 +1,10 @@
 import {Wrapper, WrapImg, Img, InfoBlock, Content, Title, Subtitle} from './styled'
-import ContactBg from "../../assets/img/contact-bg.jpg";
+import ContactBg from "../../../assets/img/contact-bg.jpg";
 import ContactForm from "./ContactForm";
 
 function Index() {
   return (
-    <Wrapper>
+    <Wrapper id="contact">
       <WrapImg>
         <Img src={ContactBg}/>
       </WrapImg>

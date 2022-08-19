@@ -5,6 +5,10 @@ const Wrapper = styled.section`
   height: 100vh;
   padding-top: 72px;
   width: 100%;
+  
+  @media screen and (max-width: 1200px) {
+    height: 750px;
+  }
 `
 const WrapImg = styled.div`
   position: absolute;
@@ -30,6 +34,8 @@ const InfoBlock = styled.div`
   max-width: 1200px;
   width: 100%;
   height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 `
 
@@ -47,6 +53,7 @@ const Btn = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 247px;
   padding: 20px 40px;
   background-color: transparent;
   border: 2px solid var(--main-green-color);

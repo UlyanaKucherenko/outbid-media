@@ -1,31 +1,23 @@
 import styled from "styled-components";
 
-const Wrapper = styled.section`
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding-block: 80px;
-`
-const Title = styled.h2`
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 61px;
-  text-align: center;
-`
-
-const InfoBlock = styled.div`
-width: 100%;
-`
 const RowItem = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: ${({ reverse }) => reverse && 'row-reverse'};
+  @media screen and (max-width: 998px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 `
 const WrapImg = styled.div`
   max-width: 514px;
   width: 50%;
   height: 320px;
+
+  @media screen and (max-width: 998px) {
+    width: 100%;
+  }
 `
 const Img = styled.img`
   width: 100%;
@@ -35,7 +27,10 @@ const Img = styled.img`
 const WrapText = styled.div`
   width: 50%;
   max-width: 556px;
- 
+  @media screen and (max-width: 998px) {
+    width: 100%;
+  }
+
 `
 const Subtitle = styled.div`
   margin-bottom: 24px;
@@ -46,10 +41,10 @@ const Subtitle = styled.div`
 const Text = styled.div`
   margin-bottom: 24px;
   font-weight: 400;
-  
+
   &:last-child {
     margin-bottom: 0;
   }
 `
 
-export {Wrapper, Title, InfoBlock, RowItem, WrapImg, Img, WrapText, Subtitle, Text}
+export { RowItem, WrapImg, Img, WrapText, Subtitle, Text}
